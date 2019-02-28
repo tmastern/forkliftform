@@ -1,0 +1,75 @@
+<!--input[type="radio"] {
+    margin: 5px 15px 0 15px;
+    transform: scale(1.5);
+ }-->
+
+ input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  
+    border-radius: 55%;
+    width: 13px;
+    height: 13px;
+  
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    outline: none;
+    margin-right: 20px;
+  
+    position: relative;
+
+  }
+  
+.green:checked {
+    display: inline-block;
+    position: relative;
+    border: 6px solid green;
+  }
+
+.red:checked {
+    display: inline-block;
+    position: relative;
+    border: 6px solid red;
+
+}
+
+.submit {
+    transform: scale(1.25);
+    margin: 5px 15px 2px 15px;
+    width: 50%;
+    height: 80%;
+}   
+
+
+body {
+    background-color: lightgray;
+}
+
+table {
+    background-color: whitesmoke;
+    height: 85% !important;
+    width: 85%
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5em
+}
+
+select {
+    width: 80%;
+    height: 80%;
+    font-size: 20px;
+}
+
+input[type="date"] {
+    width: 80%;
+    height: 80%;
+}
+
+input[type="text"] {
+    width: 80%;
+    height: 80%;
+}
